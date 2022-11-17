@@ -1,0 +1,405 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,300;1,400;1,700&display=swap');
+
+body{
+    
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.none{
+    display: none !important
+}
+.preheader{
+    background-color: #fff;
+    height: 5rem;
+    padding-left: 1rem;
+    padding-top: 2rem;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin-bottom: 3rem;
+}
+.preheader__content{
+    font-size: 1.3rem;   
+}
+.main, .footer{
+    max-width: 610px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    }
+.main__logo{
+    margin: auto;
+    width: 215px;
+    height: 35px;
+    margin-bottom: 1rem;
+}
+.main__theme{
+    background-image: url(./img/zub.jfif);
+    height: 400px;
+    background-size:auto;
+    border-radius: 2rem;
+    background-repeat: round;
+    margin-bottom: 1rem;
+    position: relative;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.main__theme__content{
+    position: absolute;
+}
+.title{
+    background-color: rgba(255, 255, 255, 0.93);
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 3em;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 2rem;
+    padding-top: 0.5rem;
+    color:  rgb(49, 49, 194);
+    left: 1rem;
+    bottom: 3rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.main__theme__content{
+    position: absolute;
+    color: midnightblue;
+}
+.main__thanks{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    padding:.5rem 1rem .5rem 1rem;
+    margin-bottom: 1rem;
+}
+.main__toothpaste{
+    position: relative;
+    background-image: url(./img/зубыГолубые.jpg);
+    height: 400px;
+    background-repeat: round;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
+.main__toothpaste__content{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    bottom: 2rem;
+    right: 1rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 2rem;
+    padding:.5rem 1rem .5rem 1rem;
+    width: 230px;
+}
+.main__toothpaste__content span{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.main__structure{
+    background-image: url(./img/зубспастой.png);
+    height: 400px;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding:0 1rem 2rem 1rem   ;
+    margin-bottom: 1rem;
+}
+.main__structure__title{
+
+}
+.main__structure__content{
+    width:  260px;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding:.5rem 1rem .5rem 1rem;
+    height: min-content;
+    }
+    .main__structure__content li{
+        list-style-image: url(./img/dentist-vector.svg);
+        margin-left: 1rem;
+    }
+    .main__attention{
+        background-image: url(./img/зубыВектор.jpg);
+        height: 462px;
+        border-radius: 2rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin-bottom: 1rem;
+    }
+    .main__attention__content {
+        position: absolute;
+        width: 350px;
+        margin: auto;
+        left: 1rem;
+    }
+    .main__components{
+        background-image: url(./img/думающий\ зуб.jpg);
+        height: 460px;
+        border-radius: 2rem;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    }
+    .main__components_content{
+        margin-top: 8rem;
+        margin-left: 1rem;
+        width:  260px;
+        border-radius: 2rem;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        background-color: rgba(255, 255, 255, 0.8);
+        padding:.5rem 1rem .5rem 1rem;
+        height: min-content;
+    }
+    .main__components__title{
+        width: 260px;
+        height: 6rem;
+        margin-right: 1rem;
+    }
+    .main__gratitude{
+        border-radius: 2rem;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        padding:1rem 1rem 1rem 1rem;
+        margin-bottom: 1rem;
+    }
+    .footer__smiles{
+        display: flex;
+        justify-content:center;
+        column-gap: 5rem;
+        background: linear-gradient(to right, blue, pink);
+        border-radius: 2rem;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        padding:1rem 1rem 1rem 1rem;
+       margin-bottom: 1rem;
+    }
+    .footer__smiles__good, .footer__smiles__bad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pic{
+        width: 70px;
+    }
+    .footer__smiles__good-title, .footer__smiles__bad-title{
+        width: 70px;
+        text-align: center;
+    }
+    .footer__smiles__good-title a:any-link, .footer__smiles__bad-title a:any-link{
+        color: black;
+    }
+    .footer__stores{
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(45deg, #1dd5b1, #880392);
+        border-radius: 1rem;
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        padding: 3rem 1rem 0 1rem;
+        margin-bottom: 2rem;
+    }
+    .footer__stores__gif{
+        width: 600px;
+    }
+    .footer__stores__application{
+        margin-top: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 1rem;
+        gap: 1rem;
+    }
+    .footer__stores__application-title{
+        color: #f4f4f4;
+        font-size: 1.5rem;
+        
+    }
+    .footer__stores__application-content{
+        text-align: center;
+        color: #f4f4f4;
+    }
+    .footer__stores__application-shops{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+    .footer__stores__application-shops-apple img, .footer__stores__application-shops-google img{
+        border-radius: 1rem;
+        
+    }
+    .footer__icons{
+        display: flex;
+        justify-content: space-around;
+        gap: .5rem;
+        margin-bottom: 2rem;
+    }
+    .footer__icons__blocks a:any-link{
+        color: #1daad5;
+    }
+    .footer__icons__blocks img {
+        width: 50px;
+        height: 40px;
+    }
+    .footer__icons__blocks-title{
+        text-align: center;
+        width: 55px;
+        font-size: .55rem;
+        align-items: center;
+    }
+    .footer__links, .footer__thismessage{
+        color: rgb(87, 87, 87);
+        font-size: .8rem;
+        text-align: center;
+    }
+    .footer__line{
+        border: 1px dotted #1daad5;
+        margin-bottom: 1rem;
+    }
+    .footer__links__shops{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    .footer__stores__application-shops2{
+        width: 300px;
+    }
+    .footer__links__connect, .footer__links__connect__messeger{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 1rem;
+        
+        }
+        .footer__links__connect__cocial, .footer__links__connect__messeger{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: .5rem;
+           
+        }
+        .footer__links__connect__cocial-links, .footer__links__connect__messeger-links{
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            
+}
+.footer__links__connect__cocial-links img, .footer__links__connect__messeger-links img{
+    width: 50px;
+}
+.footer__thismessage{
+    margin-bottom: 1rem;
+}
+.footer__subscribe{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    background-color: #880392;
+    color: #f4f4f4;
+    width: 100px;
+    height: 30px;
+    border-radius: 0.3rem;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    color: black;
+    background-color: rgb(255, 141, 2);
+}
+@media(max-width: 600px){
+    body{
+        margin: auto;
+            /* padding-left: 1rem; */
+            font-size: 14px;
+            
+        
+    }
+    .main__theme{
+        margin: auto    ;
+        width: 450px;
+        height: 300px;
+    }
+    .main__theme__content{
+        
+       
+       margin-right: 1rem;
+    }
+    .main, .footer{
+        max-width: 450px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+        .main__toothpaste{
+            height: 300px;
+            
+    }
+    .main__toothpaste__content{
+        left: 1rem;
+        bottom: 1rem;
+        width: 418px
+    }
+    .main__structure{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+    }
+    .main__structure__content{
+        width: 330px;
+    }
+
+    .main__attention{
+        width: 450px;
+        height: 300px;
+        background-repeat: round;
+        display: flex;
+        align-items: center;
+    }
+    .main__attention__content{
+        position: relative;
+        margin: auto;
+    }
+    .main__components{
+        width: 450px;
+        height: 375px;
+        background-repeat: round;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 1rem;
+        align-items: center;
+    }
+    .main__components_content{
+        margin-top: 0;
+        width: 15rem;
+        margin-left: -1rem;
+    }
+    .footer__stores{
+        flex-direction: column-reverse;
+    }
+    .footer__stores__gif{
+        width: 418px; 
+    }
+    .footer__stores__application{
+        margin-bottom: 1rem;
+    }
+    .footer__icons{
+        
+        width: 450px;
+        display: grid;
+        justify-content: center;  
+        align-items: center;
+
+        gap: 1rem;
+        grid-template-columns: repeat(4, minmax(100px, 100px));
+    }
+    .footer__icons__blocks{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
